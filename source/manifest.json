@@ -1,0 +1,15 @@
+{
+  "name": "Thats-Me.ch Karma Fix",
+  "description": "Endlich soviel Karma wie du willst!",
+  "version": "0.1",
+  "icons": {
+    "256": "logo-256.png"
+  },
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["http://thats-me.ch/*"],
+      "js": ["karmaFix.js"]
+    }
+  ]
+}
